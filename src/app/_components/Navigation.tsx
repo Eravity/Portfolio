@@ -10,31 +10,26 @@ export default function Navigation() {
       href: "/",
       label: "_hello",
       color: "text-[#F0B65A]",
-      shadow: "shadow-[#F0B65A]",
     },
     {
       href: "/skills",
       label: "_skills",
       color: "text-[#99B84A]",
-      shadow: "shadow-[#99B84A]",
     },
     {
       href: "/projects",
       label: "_projects",
       color: "text-[#1E95E7]",
-      shadow: "shadow-[#1E95E7]",
     },
     {
       href: "/contacts",
       label: "_contacts",
       color: "text-[#C54EE3]",
-      shadow: "shadow-[#C54EE3]",
     },
     {
       href: "/aboutme",
       label: "_about me",
       color: "text-[#E43869]",
-      shadow: "shadow-[#E43869]",
     },
   ];
 
@@ -48,7 +43,7 @@ export default function Navigation() {
               className={`${
                 pathname === item.href
                   ? `${item.color}`
-                  : `text-[#B8B8B8] hover:text-[#dddddd] hover:shadow-md hover:${item.shadow} bg-transparent transition duration-200`
+                  : `text-[#B8B8B8] hover:text-[#dddddd] transition duration-200`
               }`}
             >
               {item.label}
