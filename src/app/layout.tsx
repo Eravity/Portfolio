@@ -25,7 +25,7 @@ export default function RootLayout({ children }: LayoutType) {
   return (
     <html lang="en">
       <body
-        className={`m-auto w-[1920px] bg-[#1F1F23] ${firaCode.className}`}
+        className={`mx-auto max-w-[1920px] bg-[#1F1F23] ${firaCode.className}`}
       >
         <Navigation />
         {children}

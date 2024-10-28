@@ -34,7 +34,7 @@ export default function Navigation() {
   ];
 
   return (
-    <nav className="flex justify-center m-auto my-5 max-w-[700px] py-4 rounded-2xl bg-[#28282E] shadow-lg ">
+    <nav className="flex justify-center mx-auto mt-10 max-w-[700px] py-4 rounded-2xl bg-[#28282E] shadow-lg ">
       <ul className="flex gap-14 ">
         {navItems.map((item) => (
           <li key={item.href}>
