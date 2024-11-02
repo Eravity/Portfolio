@@ -2,11 +2,19 @@ import IdeLines from "@/app/_components/IdeLines";
 
 const Description: React.FC = (): JSX.Element => {
   return (
+<<<<<<< HEAD
     <div className="flex items-center gap-[30]">
       <div className="float-left">
         <IdeLines />
       </div>
       <h1 className="text-white leading-[34px] tracking-wide">
+=======
+    <div className="flex items-center gap-6">
+      <div className="float-left">
+        <IdeLines />
+      </div>
+      <h1 className="text-white text-base lg:text-md leading-7 tracking-wide">
+>>>>>>> master
         <span className="font-bold text-[#F0B65A]">&lt;Hello&gt;</span>{" "}
         <br></br>Hey, my name is{" "}
         <span className="font-bold text-[#99B84A]">Cristian</span>&#40;&#41;
