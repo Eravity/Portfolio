@@ -2,23 +2,16 @@
 
 import { useState, useEffect } from "react";
 
-<<<<<<< HEAD
-=======
 type TypewriterType = {
   displayText: string;
   isDeleting: boolean;
 };
 
->>>>>>> master
 export default function useTypewriter(
   texts: string[],
   speed = 100,
   pauseDuration = 1000
-<<<<<<< HEAD
-) {
-=======
 ): TypewriterType {
->>>>>>> master
   const [displayText, setDisplayText] = useState("");
   const [isDeleting, setIsDeleting] = useState(false);
   const [index, setIndex] = useState(0);
