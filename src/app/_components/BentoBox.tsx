@@ -26,26 +26,32 @@ const BentoBox: React.FC = (): JSX.Element => {
       {/* randul 1 */}
       <div className="rounded-lg col-span-2 row-span-2 h-full">
         <div className="grid gap-2 grid-cols-2 h-full">
-          <div className="bg-[#28282E] rounded-3xl shadow-md h-[120px] ">
-            <Image src={HTML} alt="Html logo" className="w-20"/>
+          <div className="bg-[#28282E] rounded-3xl flex gap-1 flex-col justify-center items-center shadow-md h-[120px] ">
+            <Image src={HTML} alt="Html logo" className="w-16 mt-1"/>
+            <h1 className="text-[#80808E] text-sm">HTML</h1>
           </div>
-          <div className="bg-[#28282E] rounded-3xl shadow-md h-[120px]">
-            <Image src={CSS} alt="CSS logo" className="w-20"/>
+          <div className="bg-[#28282E] rounded-3xl flex gap-1 flex-col justify-center items-center shadow-md h-[120px] ">
+            <Image src={CSS} alt="Html logo" className="w-16 mt-1"/>
+            <h1 className="text-[#80808E] text-sm">CSS</h1>
           </div>
-          <div className="bg-[#28282E] rounded-3xl shadow-md h-[120px] col-span-2 ">
+          <div className="bg-[#28282E] flex flex-col justify-center items-center rounded-3xl shadow-md h-[120px] col-span-2 ">
             <Image src={Supabase} alt="Supabase logo" className="w-60"/>
+            <h1 className="text-[#80808E] text-sm">Supabase</h1>
           </div>
         </div>
       </div>
 
-      <div className="bg-[#28282E] rounded-3xl shadow-md row-span-2 h-full">
-        <Image src={NextJs} alt="NextJS logo" className="w-60"/>
+      <div className="bg-[#28282E] gap-3 rounded-3xl flex flex-col justify-center items-center shadow-md row-span-2 h-full">
+        <Image src={NextJs} alt="NextJS logo" className="w-44"/>
+        <h1 className="text-[#80808E] text-sm">NextJS</h1>
       </div>
-      <div className="bg-[#28282E] rounded-3xl shadow-md row-span-2 h-full">
+      <div className="bg-[#28282E] rounded-3xl gap-3 flex flex-col justify-center items-center shadow-md row-span-2 h-full">
         <Image src={GitHub} alt="GitHub logo" className="w-40"/>
+        <h1 className="text-[#80808E] text-sm">GitHub</h1>
       </div>
-      <div className="bg-[#28282E] rounded-3xl shadow-md row-span-2 h-full">
-        <Image src={Tailwind} alt="Tailwind logo"/>
+      <div className="bg-[#28282E] rounded-3xl shadow-md row-span-2 gap-2 flex flex-col justify-center items-center h-full">
+        <Image src={Tailwind} alt="Tailwind logo" className="w-72"/>
+        <h1 className="text-[#80808E] text-sm">Tailwind</h1>
       </div>
       <div className="bg-[#28282E] rounded-3xl shadow-md row-span-2 flex items-center justify-center h-full">
         <h1 className="text-[84px] font-bold">SPA</h1>
