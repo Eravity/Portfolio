@@ -118,7 +118,7 @@ const BentoBox: React.FC = (): JSX.Element => {
       >
         <div className={`${container}`}>
           <h1
-            className="text-[84px] font-bold"
+            className="text-[80px] font-bold"
             style={{
               background: "linear-gradient(90deg, #99B84A, #28282E)",
               WebkitBackgroundClip: "text",
@@ -126,7 +126,7 @@ const BentoBox: React.FC = (): JSX.Element => {
               color: "#28282E",
             }}
           >
-            API
+            <div className="inline invisible ml-[-40px]">.</div>API
           </h1>
           <h1 className={`${title} mt-[-15px]`}>REST API</h1>
         </div>
