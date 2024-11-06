@@ -24,7 +24,7 @@ const BentoBox: React.FC = (): JSX.Element => {
 
   return (
     <div
-      className="grid gap-2 w-5/6 mx-auto grid-rows-6 h-[760px]"
+      className="grid gap-2 w-5/6 mx-auto grid-rows-6 h-[760px] mb-[-100px]"
       style={{ gridTemplateColumns: "10% 10% 20% 15% 28% 15%" }}
     >
       {/* randul 1 */}
@@ -151,7 +151,7 @@ const BentoBox: React.FC = (): JSX.Element => {
           </div>
         </div>
         <div className={`${container} gap-3`}>
-          <Image src={ssr_csr} alt="SSR_CSR Logo" className="w-40" />
+          <Image src={ssr_csr} alt="SSR_CSR Logo" className="w-36" />
           <h1 className={`${title} w-[130px]`}>
             Server & client side rendering
           </h1>

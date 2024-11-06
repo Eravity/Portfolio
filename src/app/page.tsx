@@ -8,6 +8,7 @@ export default function Home() {
       <Section_One />
       <SectionIndicator text="Skills" />
       <Section_Two />
+      <SectionIndicator text="Projects" />
     </div>
   );
 }
