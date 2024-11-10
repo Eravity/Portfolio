@@ -1,5 +1,5 @@
 import Image from "next/image";
-import { images } from "@/app/images/_imageImports";
+import { images } from "@/app/_images/_imageImports";
 
 const BentoBox: React.FC = (): JSX.Element => {
   const {
@@ -153,7 +153,7 @@ const BentoBox: React.FC = (): JSX.Element => {
         <div className={`${container} gap-3`}>
           <Image src={ssr_csr} alt="SSR_CSR Logo" className="w-36" />
           <h1 className={`${title} w-[130px]`}>
-            Server & client side rendering
+            Client & Server side rendering
           </h1>
         </div>
         <div className={`${container} gap-4`}>

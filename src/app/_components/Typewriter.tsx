@@ -1,4 +1,4 @@
-import useTypewriter from "@/app/hooks/useTypewriter";
+import useTypewriter from "@/app/_hooks/useTypewriter";
 
 // prettier-ignore
 export default function TypewriterWithIndicator() {
