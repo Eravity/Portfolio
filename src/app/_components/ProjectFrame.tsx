@@ -15,7 +15,7 @@ const ProjectFrame: React.FC<Props> = ({
   id,
 }) => {
   return (
-    <div className="flex flex-col px-8 py-6 w-full border border-[#4D4D57] rounded-xl">
+    <div className="flex flex-col px-8 py-6 w-full border border-[#4D4D57] hover:border-[#80808E] duration-200 rounded-xl">
       <h1 className="text-[#F0B65A]">{name}</h1>
       <div className="bg-[#28282E] max-h-52 w-full h-full mt-5 rounded-xl p-6">
         <ShortIdeLines name={name} projectName={projectName} />

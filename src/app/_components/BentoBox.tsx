@@ -19,7 +19,7 @@ const BentoBox: React.FC = (): JSX.Element => {
   } = images;
 
   const container =
-    "bg-[#28282E] rounded-3xl flex flex-col justify-center items-center shadow-md";
+    "bg-[#28282E] rounded-3xl flex flex-col justify-center border-[#4D4D57] items-center shadow-md duration-100 hover:border hover:scale-110";
   const title = "text-[#80808E] text-sm text-center uppercase";
 
   return (

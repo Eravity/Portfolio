@@ -36,7 +36,7 @@ const Section_Four: React.FC = () => {
           things started.
         </h1>
         <div className="flex justify-end mt-5">
-          <button className="border px-3 py-2 rounded-xl border-[#45444B] font-bold text-[#80808E]">
+          <button className="border px-3 py-2 rounded-xl border-[#45444B] font-bold text-[#80808E] hover:scale-110 duration-150">
             - SEND INFO
           </button>
         </div>
