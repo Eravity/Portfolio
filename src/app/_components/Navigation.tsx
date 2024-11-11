@@ -14,7 +14,7 @@ export default function Navigation() {
   ];
 
   return (
-    <nav className="flex justify-center mx-auto mt-10 mb-[-30px] max-w-[700px] py-4 rounded-2xl bg-[#28282E] shadow-lg">
+    <nav className="flex justify-center mx-auto mt-10 px-10 mb-[-30px] max-w-[700px] py-4 rounded-2xl bg-[#28282E] shadow-lg">
       <ul className="flex gap-10 lg:gap-8">
         {navItems.map((item) => (
           <li key={item.href}>
