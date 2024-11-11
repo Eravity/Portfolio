@@ -7,14 +7,14 @@ import Section_Four from "@/app/_components/Section_Four";
 
 export default function Home() {
   return (
-    <div className="mx-auto">
+    <>
       <Section_One />
       <SectionIndicator text="Skills" />
       <Section_Two />
       <SectionIndicator text="Projects" />
-      <Section_Three/>
+      <Section_Three />
       <SectionIndicator text="Contacts" />
-      <Section_Four/>
-    </div>
+      <Section_Four />
+    </>
   );
 }
