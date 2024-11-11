@@ -39,7 +39,7 @@ const BentoBox: React.FC = (): JSX.Element => {
             <h1 className={`${title}`}>CSS</h1>
           </div>
           <div className={`${container} h-[120px] col-span-2`}>
-            <Image src={Supabase} alt="Supabase logo" className="w-60" />
+            <Image src={Supabase} alt="Supabase logo" className="w-56" />
             <h1 className={`${title}`}>Supabase</h1>
           </div>
         </div>
@@ -50,7 +50,7 @@ const BentoBox: React.FC = (): JSX.Element => {
         <h1 className={`${title}`}>NextJS</h1>
       </div>
       <div className={`${container} gap-3 row-span-2`}>
-        <Image src={GitHub} alt="GitHub logo" className="w-40" />
+        <Image src={GitHub} alt="GitHub logo" className="w-36" />
         <h1 className={`${title} mt-2`}>GitHub</h1>
       </div>
       <div className={`${container} gap-3 row-span-2`}>
