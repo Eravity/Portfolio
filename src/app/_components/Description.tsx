@@ -2,7 +2,7 @@ import IdeLines from "@/app/_components/IdeLines";
 
 const Description: React.FC = (): JSX.Element => {
   return (
-    <div className="flex items-center gap-6">
+    <div className="flex items-center lg:scale-[80%] xl:scale-90 2xl:scale-100 gap-6">
       <div className="float-left">
         <IdeLines />
       </div>

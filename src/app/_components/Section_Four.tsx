@@ -1,13 +1,13 @@
 const Section_Four: React.FC = () => {
   return (
-    <section className="flex justify-between my-28 w-11/12 mx-auto">
-      <h1 className="text-6xl font-bold text-[#1E95E7] leading-[75px]">
+    <section className="flex justify-between my-28 2xl:scale-100 2xl:w-11/12 xl:w-11/12 lg:scale-[90%] lg:w-11/12 xl:scale-90 mx-auto">
+      <h1 className="text-6xl 2xl:scale-100 lg:scale-[90%] xl:scale-90 font-bold text-[#1E95E7] leading-[75px]">
         Let&apos;s get
         <br />
         <span className="text-[#E43869]">started.</span>
       </h1>
 
-      <form>
+      <form className="">
         <h1 className="text-2xl font-bold text-[#80808E] leading-10">
           My name is{" "}
           <input

@@ -24,13 +24,12 @@ const BentoBox: React.FC = (): JSX.Element => {
 
   return (
     <div
-  className="grid gap-1 xl:gap-2 mx-auto xl:w-11/12 xl:scale-90 2xl:scale-100 grid-rows-6 h-[760px] mb-[-100px]"
-  style={{ gridTemplateColumns: "10% 10% 20% 15% 28% 15%" }}
->
-
+      className="grid gap-2 xl:gap-2 mx-auto xl:w-11/12 lg:scale-[80%] xl:scale-90 2xl:scale-100 grid-rows-6 h-[760px] mb-[-100px]"
+      style={{ gridTemplateColumns: "10% 10% 20% 15% 28% 15%" }}
+    >
       {/* Randul 1 */}
       <div className="rounded-lg col-span-2 row-span-2">
-        <div className="grid gap-1 xl:gap-2 grid-cols-2">
+        <div className="grid gap-2 xl:gap-2 grid-cols-2">
           <div className={`${container} h-[120px]`}>
             <Image src={HTML} alt="Html logo" className="w-14 mt-1" />
             <h1 className={`${title}`}>HTML</h1>
@@ -74,7 +73,7 @@ const BentoBox: React.FC = (): JSX.Element => {
       </div>
 
       {/* Randul 2 */}
-      <div className="grid grid-cols-10 gap-1 xl:gap-2 col-span-full row-span-2">
+      <div className="grid grid-cols-10 gap-2 xl:gap-2 col-span-full row-span-2">
         <div className={`${container} col-span-3`}>
           <Image
             src={Javascript}
@@ -87,7 +86,7 @@ const BentoBox: React.FC = (): JSX.Element => {
           <Image src={React} alt="React logo" className="w-36 xl:w-48" />
           <h1 className={`${title}`}>React</h1>
         </div>
-        <div className="grid col-span-2 gap-1 xl:gap-2">
+        <div className="grid col-span-2 gap-2 xl:gap-2">
           <div className={`${container}`}>
             <Image src={Redux} alt="Redux logo" className="w-20 xl:w-24" />
             <h1 className={`${title}`}>Redux</h1>
@@ -115,7 +114,7 @@ const BentoBox: React.FC = (): JSX.Element => {
 
       {/* Randul 3 */}
       <div
-        className="grid gap-1 xl:gap-2 col-span-full row-span-2"
+        className="grid gap-2 xl:gap-2 col-span-full row-span-2"
         style={{
           gridTemplateColumns:
             "minmax(15%, 1fr) minmax(25%, 1fr) minmax(15%, 1fr) minmax(25%, 1fr) minmax(15%, 1fr)",
@@ -135,7 +134,7 @@ const BentoBox: React.FC = (): JSX.Element => {
           </h1>
           <h1 className={`${title}`}>REST API</h1>
         </div>
-        <div className="grid gap-1 xl:gap-2">
+        <div className="grid gap-2 xl:gap-2">
           <div className={`${container}`}>
             <h1
               className="text-[36px] xl:text-[44px] font-bold"

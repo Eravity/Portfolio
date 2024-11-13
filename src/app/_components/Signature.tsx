@@ -3,8 +3,8 @@ import Typewriter from "@/app/_components/Typewriter";
 
 const Signature: React.FC = (): JSX.Element => {
   return (
-    <div className="flex flex-col">
-      <h1 className="text-[80px] lg:text-[100px] xl:text-[120px] font-bold leading-[100px] text-[#99B84A]"
+    <div className="flex flex-col lg:scale-[80%] xl:scale-90 2xl:scale-100">
+      <h1 className="md:text-[80px] lg:text-[100px] xl:text-[120px] font-bold leading-[100px] text-[#99B84A]"
       style={{
         background: "#99B84A",
         WebkitBackgroundClip: "text",

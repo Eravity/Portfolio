@@ -3,12 +3,12 @@ import ProjectFrame from "@/app/_components/ProjectFrame";
 
 const Section_Three: React.FC = () => {
   return (
-    <section className="mt-16 mb-32 lg:w-11/12 flex max-w-[1480px] flex-col mx-auto justify-around">
-      <h1 className="text-[#99B84A] mb-5 uppercase flex gap-1">
+    <section className="mt-16 mb-32 2xl:w-11/12 xl:w-11/12 lg:w-11/12 flex max-w-[1480px] flex-col mx-auto justify-around">
+      <h1 className="text-[#99B84A] mb-5 uppercase lg:scale-[90%] 2xl:scale-100 flex gap-1">
         &#47;&#47;Latest Projects
         <BlinkingCursor />
       </h1>
-      <div className="flex gap-5 mx-auto w-full">
+      <div className="flex 2xl:scale-100 lg:scale-[90%] xl:scale-90 gap-5 mx-auto w-full">
         <ProjectFrame
           id={1}
           name="_Project 1"
