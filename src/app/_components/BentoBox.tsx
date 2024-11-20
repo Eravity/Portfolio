@@ -24,7 +24,7 @@ const BentoBox: React.FC = (): JSX.Element => {
 
   return (
     <div
-      className="grid gap-2 xl:gap-2 mx-auto xl:w-11/12 lg:scale-[80%] xl:scale-90 2xl:scale-100 grid-rows-6 h-[760px] mb-[-100px]"
+      className="grid gap-2 xl:gap-2 mx-auto xl:w-10/12 lg:scale-[80%] xl:scale-90 2xl:scale-100 grid-rows-6 h-[760px] mb-[-100px]"
       style={{ gridTemplateColumns: "10% 10% 20% 15% 28% 15%" }}
     >
       {/* Randul 1 */}
