@@ -24,7 +24,7 @@ const BentoBox: React.FC = (): JSX.Element => {
 
   return (
     <div
-      className="grid gap-2 xl:gap-2 mx-auto xl:w-10/12 lg:scale-[80%] xl:scale-90 2xl:scale-100 grid-rows-6 h-[760px] mb-[-100px]"
+      className="grid gap-2 xl:gap-2 mx-auto xl:w-11/12 lg:scale-[80%] xl:scale-90 2xl:scale-100 grid-rows-6 h-[760px] mb-[-100px]"
       style={{ gridTemplateColumns: "10% 10% 20% 15% 28% 15%" }}
     >
       {/* Randul 1 */}
@@ -88,12 +88,12 @@ const BentoBox: React.FC = (): JSX.Element => {
         </div>
         <div className="grid col-span-2 gap-2 xl:gap-2">
           <div className={`${container}`}>
-            <Image src={Redux} alt="Redux logo" className="w-20 xl:w-24" />
+            <Image src={Redux} alt="Redux logo" className="w-20 h-20 xl:w-24" />
             <h1 className={`${title}`}>Redux</h1>
           </div>
           <div className={`${container}`}>
             <h1
-              className="text-[48px] xl:text-[64px] font-bold"
+              className="text-[48px] max-h-[85px] xl:text-[64px] font-bold"
               style={{
                 background: "linear-gradient(90deg, #E43869, #28282E)",
                 WebkitBackgroundClip: "text",
@@ -103,7 +103,7 @@ const BentoBox: React.FC = (): JSX.Element => {
             >
               30+
             </h1>
-            <h1 className={`${title} mt-[-10px]`}>Completed projects</h1>
+            <h1 className={`${title}`}>Completed projects</h1>
           </div>
         </div>
         <div className={`${container}`}>
@@ -135,20 +135,20 @@ const BentoBox: React.FC = (): JSX.Element => {
           <h1 className={`${title}`}>REST API</h1>
         </div>
         <div className="grid gap-2 xl:gap-2">
-          <div className={`${container}`}>
-            <h1
-              className="text-[36px] xl:text-[44px] font-bold"
-              style={{
-                background: "linear-gradient(90deg, #C54EE3, #28282E)",
-                WebkitBackgroundClip: "text",
-                WebkitTextStroke: "6px transparent",
-                color: "#28282E",
-              }}
-            >
-              PERFORMANCE
-            </h1>
-            <h1 className={`${title}`}>Optimization techniques</h1>
-          </div>
+        <div className={`${container} row-span-2`}>
+        <h1
+          className="text-[60px] xl:text-[41px] font-bold"
+          style={{
+            background: "linear-gradient(90deg, #E43869, #28282E)",
+            WebkitBackgroundClip: "text",
+            WebkitTextStroke: "6px transparent",
+            color: "#28282E",
+          }}
+        >
+          Performance
+        </h1>
+        <h1 className={`${title}`}>Single Page Application</h1>
+      </div>
           <div className={`${container}`}>
             <Image src={Router} alt="Router Logo" className="w-20 xl:w-24" />
             <h1 className={`${title}`}>Router</h1>
