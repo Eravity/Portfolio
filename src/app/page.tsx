@@ -11,7 +11,11 @@ export default function Home() {
         <Section_One />
         <SectionIndicator text="Skills" />
       </div>
-      <Section_Two />
+
+      <div className="w-full max-w-screen-2xl mx-auto">
+        <Section_Two />
+      </div>
+
       <SectionIndicator text="Projects" />
       <Section_Three />
       <SectionIndicator text="Contacts" />
