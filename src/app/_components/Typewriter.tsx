@@ -6,8 +6,8 @@ export default function TypewriterWithIndicator() {
 
   return (
     <div className="flex">
-      <div className="text-[70px]">{displayText}</div>
-      <div className={`text-[70px] animate-pulse transition duration-200 opacity-100 text-[#E43869]`}>
+      <div className="text-[10px] xs:text-[20px] sm:text-[30px] md:text-[40px] lg:text-[50px] xl:text-[60px] 2xl:text-[70px]">{displayText}</div>
+      <div className={`text-[10px] xs:text-[20px] sm:text-[30px] md:text-[40px] lg:text-[50px] xl:text-[60px] 2xl:text-[70px] animate-pulse transition duration-200 opacity-100 text-[#E43869]`}>
         |
       </div>
     </div>

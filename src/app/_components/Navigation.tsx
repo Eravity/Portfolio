@@ -14,23 +14,33 @@ export default function Navigation() {
   ];
 
   return (
-    <nav className="flex justify-center mx-auto mt-10 px-10 max-w-[700px] py-4 rounded-2xl bg-[#28282E] shadow-lg">
-      <ul className="flex gap-10 lg:gap-8">
-        {navItems.map((item) => (
-          <li key={item.href}>
-            <Link
-              href={item.href}
-              className={`${
-                pathname === item.href
-                  ? item.color
-                  : "text-[#B8B8B8] hover:text-[#dddddd] transition duration-200"
-              }`}
-            >
-              {item.label}
-            </Link>
-          </li>
-        ))}
-      </ul>
-    </nav>
+    <>
+      <nav className="md:hidden w-screen flex text-center items-center mx-auto py-5 border border-transparent border-b-[#45444B]">
+        <div className="mx-auto">
+          <h1 className="text-3xl font-bold text-[#99B84A]">
+            Cristian Cebotari
+          </h1>
+        </div>
+      </nav>
+
+      <nav className="hidden md:flex justify-center mx-auto mt-10 px-10 max-w-[700px] py-4 rounded-2xl bg-[#28282E] shadow-lg">
+        <ul className="flex gap-10 lg:gap-8">
+          {navItems.map((item) => (
+            <li key={item.href}>
+              <Link
+                href={item.href}
+                className={`${
+                  pathname === item.href
+                    ? item.color
+                    : "text-[#B8B8B8] hover:text-[#dddddd] transition duration-200"
+                }`}
+              >
+                {item.label}
+              </Link>
+            </li>
+          ))}
+        </ul>
+      </nav>
+    </>
   );
 }

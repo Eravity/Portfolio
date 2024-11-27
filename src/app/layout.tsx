@@ -26,10 +26,12 @@ export default function RootLayout({ children }: LayoutType) {
   return (
     <html lang="en">
       <body
-        className={`flex flex-col mx-auto overflow-x-hidden justify-center items-center bg-[#1F1F23] ${firaCode.className}`}
+        className={`flex flex-col mx-auto overflow-x-hidden bg-[#1F1F23] ${firaCode.className}`}
       >
         <Navigation />
-        <main role="main">{children}</main>
+        <main role="main" className="flex flex-col justify-center items-center w-full">
+          {children}
+        </main>
         <Footer />
       </body>
     </html>

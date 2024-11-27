@@ -3,7 +3,7 @@ import Signature from "@/app/_components/Signature";
 
 const Section_One: React.FC = (): JSX.Element => {
   return (
-    <section className="mb-44 2xl:w-11/12 xl:w-11/12 lg:w-10/12 flex flex-col-reverse lg:flex-row items-center mx-auto justify-between">
+    <section className="my-16 flex md:flex-row items-center mx-auto justify-around max-w-screen-2xl">
       <Description />
       <Signature />
     </section>
@@ -11,3 +11,5 @@ const Section_One: React.FC = (): JSX.Element => {
 };
 
 export default Section_One;
+
+

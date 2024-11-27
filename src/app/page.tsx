@@ -4,12 +4,13 @@ import SectionIndicator from "@/app/_components/SectionIndicator";
 import Section_Three from "@/app/_components/Section_Three";
 import Section_Four from "@/app/_components/Section_Four";
 
-
 export default function Home() {
   return (
     <>
-      <Section_One />
-      <SectionIndicator text="Skills" />
+      <div className="w-full max-w-screen-2xl mx-auto">
+        <Section_One />
+        <SectionIndicator text="Skills" />
+      </div>
       <Section_Two />
       <SectionIndicator text="Projects" />
       <Section_Three />
