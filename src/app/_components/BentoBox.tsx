@@ -26,8 +26,8 @@ const BentoBox: React.FC = (): JSX.Element => {
     <div className="grid gap-2 xl:max-w-screen-xl xl:gap-2 mx-auto scale 2xl:scale-[85%] lg:scale-[82%] grid-rows-6 h-[760px] mb-[-100px] md:grid-cols-6 md:max-w-screen-md lg:max-w-screen-lg 2xl:max-w-screen-2xl xl:grid-cols-[10%_10%_20%_15%_28%_15%]">
       {/* Randul 1 */}
       <div className="rounded-lg md:col-span-1 xl:col-span-2 col-span-2 row-span-2">
-        <div className="grid gap-2 xl:gap-2 row-span-2">
-          <div className={`${container} gap-2 lg:min-h-28`}>
+        <div className="grid gap-2 xl:gap-2 md:min-h- row-span-2">
+          <div className={`${container} gap-2 md:min-h-28`}>
             <Image src={HTML} alt="Html logo" className="w-14 mt-1" />
             <h1 className={title}>HTML</h1>
           </div>
@@ -35,7 +35,7 @@ const BentoBox: React.FC = (): JSX.Element => {
             <Image src={CSS} alt="CSS logo" className="w-14 mt-1" />
             <h1 className={title}>CSS</h1>
           </div>
-          <div className={`${container} col-span-2 lg:min-h-32`}>
+          <div className={`${container} col-span-2 md:min-h-32`}>
             <Image src={Supabase} alt="Supabase logo" className="w-44" />
             <h1 className={title}>Supabase</h1>
           </div>

@@ -32,9 +32,9 @@ const IdeLines: React.FC = (): JSX.Element => {
           })}
         </div>
         <div className="flex items-center md:gap-4 lg:gap-5 xl:gap-6 2xl:gap-7">
-          <div className="hidden lg:flex w-[1px] h-[450px] bg-[#45444B]"></div>
-          <div className="w-[1px] h-[350px] bg-[#45444B]"></div>
-          <div className="w-[1px] h-[250px] bg-[#45444B]"></div>
+          <div className="hidden lg:flex w-[1px] h-[450px] 2xl:h-[550px] bg-[#45444B]"></div>
+          <div className="w-[1px] h-[350px] 2xl:h-[450px] bg-[#45444B]"></div>
+          <div className="w-[1px] h-[250px] 2xl:h-[350px] bg-[#45444B]"></div>
         </div>
       </div>
     </>

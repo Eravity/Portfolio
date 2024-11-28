@@ -1,11 +1,11 @@
 interface SectionIndicatorProps {
   text: string;
-  width?: string; // Add width prop
+  width?: string; 
 }
 
 const SectionIndicatorProps: React.FC<SectionIndicatorProps> = ({
   text,
-  width = "w-1/4", // Default width
+  width = "w-1/3", 
 }): JSX.Element => {
   return (
     <div className="flex items-center justify-center">
