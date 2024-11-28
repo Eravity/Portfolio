@@ -23,7 +23,7 @@ const BentoBox: React.FC = (): JSX.Element => {
   const title = "text-[#80808E] text-xs xl:text-sm text-center uppercase";
 
   return (
-    <div className="grid gap-2 xl:max-w-screen-xl xl:gap-2 mx-auto scale 2xl:scale-[100%] lg:scale-[82%] grid-rows-6 h-[760px] mb-[-100px] md:grid-cols-6 md:max-w-screen-md lg:max-w-screen-lg 2xl:max-w-screen-2xl xl:grid-cols-[10%_10%_20%_15%_28%_15%]">
+    <div className="grid gap-2 xl:max-w-screen-xl xl:gap-2 mx-auto scale 2xl:scale-[85%] lg:scale-[82%] grid-rows-6 h-[760px] mb-[-100px] md:grid-cols-6 md:max-w-screen-md lg:max-w-screen-lg 2xl:max-w-screen-2xl xl:grid-cols-[10%_10%_20%_15%_28%_15%]">
       {/* Randul 1 */}
       <div className="rounded-lg md:col-span-1 xl:col-span-2 col-span-2 row-span-2">
         <div className="grid gap-2 xl:gap-2 row-span-2">
@@ -113,8 +113,9 @@ const BentoBox: React.FC = (): JSX.Element => {
       </div>
 
       {/* Randul 3 */}
-      <div className="grid gap-2 xl:gap-2 col-span-full row-span-2 md:grid-cols-[minmax(15%,1fr)_minmax(25%,1fr)_minmax(15%,1fr)] lg:grid-cols-[minmax(15%,1fr)_minmax(25%,1fr)_minmax(15%,1fr)_minmax(25%,1fr)_minmax(15%,1fr)]">
-        <div className={`${container}`}>
+      <div className="grid gap-2 xl:gap-2 col-span-full row-span-2 md:grid-cols-[minmax(15%,1fr)_minmax(25%,1fr)_minmax(15%,1fr)] lg:grid-cols-[minmax(15%,1fr)_minmax(25%,1fr)_minmax(15%,1fr)]
+      xl:grid-cols-[minmax(15%,1fr)_minmax(25%,1fr)_minmax(15%,1fr)_minmax(25%,1fr)_minmax(15%,1fr)]">
+        <div className={`${container} xl:hidden`}>
           <Image src={SQL} alt="SQL Logo" className="w-20 xl:w-24" />
           <h1 className={`${title} mt-3`}>SQL</h1>
         </div>
