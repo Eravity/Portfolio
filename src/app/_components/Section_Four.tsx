@@ -1,14 +1,14 @@
 const Section_Four: React.FC = () => {
   return (
-    <section className="flex max-w-screen-2xl justify-between my-28 2xl:scale-100 2xl:w-11/12 xl:w-11/12 lg:scale-[90%] lg:w-11/12 xl:scale-90 mx-auto">
-      <h1 className="text-6xl 2xl:scale-100 lg:scale-[90%] xl:scale-90 font-bold text-[#1E95E7] leading-[75px]">
+    <section className="flex flex-col gap-8 lg:flex-row max-w-screen-xl justify-between my-28 2xl:scale-100 2xl:w-11/12 xl:w-11/12 lg:scale-[90%] lg:w-11/12 xl:scale-90 mx-auto">
+      <h1 className="text-6xl w-[330px] 2xl:scale-100 lg:scale-[90%] xl:scale-90 font-bold text-[#1E95E7] leading-[75px]">
         Let&apos;s get
         <br />
         <span className="text-[#E43869]">started.</span>
       </h1>
 
       <form className="">
-        <h1 className="text-2xl font-bold text-[#80808E] leading-10">
+        <h1 className="text-2xl w-[590px] font-bold text-[#80808E] leading-10">
           My name is{" "}
           <input
             type="text"

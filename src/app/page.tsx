@@ -18,11 +18,12 @@ export default function Home() {
         <SectionIndicator text="Projects" />
       </div>
 
-      {/* <div className={`${sectionContainer}`}>
+      <div className={`${sectionContainer}`}>
         <Section_Three />
         <SectionIndicator text="Contacts" />
       </div>
-      <Section_Four /> */}
+
+      <Section_Four />
     </>
   );
 }
