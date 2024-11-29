@@ -137,9 +137,9 @@ const BentoBox: React.FC = (): JSX.Element => {
         <div className="grid gap-2 xl:gap-2">
           <div className={`${container} row-span-2`}>
             <h1
-              className="text-[35px] xl:text-[41px] font-bold bg-gradient-to-r from-[#E43869] to-[#28282E] bg-clip-text text-transparent"
+              className="text-[35px] xl:text-[41px] font-bold bg-gradient-to-r from-[#C54EE3] to-[#28282E] bg-clip-text text-transparent"
               style={{
-                background: "linear-gradient(90deg, #E43869, #28282E)",
+                background: "linear-gradient(90deg, #C54EE3, #28282E)",
                 WebkitBackgroundClip: "text",
                 WebkitTextStroke: "6px transparent",
                 color: "#28282E",

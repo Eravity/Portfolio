@@ -6,7 +6,7 @@ const Description: React.FC = (): JSX.Element => {
       <div className="float-left">
         <IdeLines />
       </div>
-      <h1 className="text-white text-[17px] xs:text-[20px] sm:text-[20px] md:text-[12px] lg:text-[14px] xl:text-[16px] 2xl:text-[18px] leading-[1.6] xs:leading-[1.6] sm:leading-[1.6] md:leading-[1.6] lg:leading-[1.6] xl:leading-[1.6] 2xl:leading-[1.8] tracking-wide">
+      <h1 className="text-white text-[16px] mr-3 md:mr-0 xs:text-[18px] sm:text-[20px] md:text-[12px] lg:text-[14px] xl:text-[16px] 2xl:text-[18px] leading-[1.6] xs:leading-[1.6] sm:leading-[1.6] md:leading-[1.6] lg:leading-[1.6] xl:leading-[1.6] 2xl:leading-[1.8] tracking-wide">
         <span className="font-bold text-[#F0B65A]">&lt;Hello&gt;</span> <br />
         Hey, my name is <span className="font-bold text-[#99B84A]">Cristian</span>
         &#40;&#41; &#123;
