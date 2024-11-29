@@ -23,7 +23,7 @@ export default function Home() {
         <SectionIndicator text="Contacts" />
       </div>
 
-      <Section_Four />
+      {/* <Section_Four /> */}
     </>
   );
 }

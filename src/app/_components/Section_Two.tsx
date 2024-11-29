@@ -1,9 +1,13 @@
 import BentoBox from "@/app/_components/BentoBox";
+import BentoBoxV2 from "@/app/_components/BentoBoxV2";
 
 const Section_Two: React.FC = (): JSX.Element => {
   return (
-    <section className="mt-24 mb-52 flex mx-auto">
-      <BentoBox />
+    <section className="mb-28 flex mx-auto">
+      <div className="hidden md:block mx-auto">
+        <BentoBox />
+      </div>
+      <BentoBoxV2 />
     </section>
   );
 };
