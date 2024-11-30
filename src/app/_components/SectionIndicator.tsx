@@ -5,7 +5,7 @@ interface SectionIndicatorProps {
 
 const SectionIndicatorProps: React.FC<SectionIndicatorProps> = ({
   text,
-  width = "w-1/4", 
+  width = "w-1/3", 
 }): JSX.Element => {
   return (
     <div className="flex items-center justify-center">
