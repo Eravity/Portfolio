@@ -19,7 +19,7 @@ const BentoBox: React.FC = (): JSX.Element => {
   } = images;
 
   const container =
-    "bg-[#28282E] rounded-xl xl:rounded-3xl flex flex-col justify-center items-center shadow-md transition duration-100 hover:scale-110 hover:border border-[#4D4D57] p-2";
+    "bg-[#28282E] rounded-3xl flex flex-col justify-center items-center shadow-md transition duration-100 hover:scale-110 hover:border border-[#4D4D57] p-2";
   const title = "text-[#80808E] text-xs xl:text-sm text-center uppercase";
 
   return (
@@ -43,17 +43,17 @@ const BentoBox: React.FC = (): JSX.Element => {
       </div>
 
       <div className={`${container} row-span-2`}>
-        <Image src={NextJs} alt="NextJS logo" className="w-32 xl:w-44" />
+        <Image src={NextJs} alt="NextJS logo" className="w-32 md:w-24 xl:w-44" />
         <h1 className={`${title} mt-3`}>NextJS</h1>
       </div>
       <div className={`${container} row-span-2`}>
-        <Image src={GitHub} alt="GitHub logo" className="w-28 xl:w-36" />
+        <Image src={GitHub} alt="GitHub logo" className="w-28 md:w-24 xl:w-36" />
         <h1 className={`${title} mt-3`}>GitHub</h1>
       </div>
       <div
         className={`${container} md:col-span-2 xl:col-span-1 row-span-2 gap-4`}
       >
-        <Image src={Tailwind} alt="Tailwind logo" className="w-40 xl:w-72" />
+        <Image src={Tailwind} alt="Tailwind logo" className="md:w-52 lg:w-60 xl:w-64" />
         <h1 className={title}>Tailwind</h1>
       </div>
       <div className={`${container} row-span-2`}>
@@ -77,18 +77,18 @@ const BentoBox: React.FC = (): JSX.Element => {
           <Image
             src={Javascript}
             alt="JavaScript logo"
-            className="w-32 xl:w-40"
+            className="w-32 lg:w-40 xl:w-40"
           />
           <h1 className={`${title} mt-3`}>JavaScript</h1>
         </div>
         <div className={`${container} col-span-4`}>
-          <Image src={React} alt="React logo" className="w-36 xl:w-48" />
+          <Image src={React} alt="React logo" className="w-36 lg:w-48" />
           <h1 className={title}>React</h1>
         </div>
 
         <div className="grid col-span-2 md:col-span-3 xl:col-span-2 gap-2 xl:gap-2">
           <div className={`${container}`}>
-            <Image src={Redux} alt="Redux logo" className="w-20 h-20 xl:w-24" />
+            <Image src={Redux} alt="Redux logo" className="w-20 lg:w-24" />
             <h1 className={title}>Redux</h1>
           </div>
           <div className={container}>
@@ -122,7 +122,7 @@ const BentoBox: React.FC = (): JSX.Element => {
 
         <div className={container}>
           <h1
-            className="text-[70px] xl:text-[80px] font-bold bg-gradient-to-r from-[#99B84A] to-[#28282E] bg-clip-text text-transparent"
+            className="text-[70px] lg:text-[80px] font-bold bg-gradient-to-r from-[#99B84A] to-[#28282E] bg-clip-text text-transparent"
             style={{
               background: "linear-gradient(90deg, #99B84A, #28282E)",
               WebkitBackgroundClip: "text",
@@ -171,7 +171,7 @@ const BentoBox: React.FC = (): JSX.Element => {
         </div>
         <div className={container}>
           <h1
-            className="text-[70px] xl:text-[84px] font-bold bg-gradient-to-r from-[#99B84A] to-[#28282E] bg-clip-text text-transparent"
+            className="text-[70px] lg:text-[84px] font-bold bg-gradient-to-r from-[#99B84A] to-[#28282E] bg-clip-text text-transparent"
             style={{
               background: "linear-gradient(90deg, #99B84A, #28282E)",
               WebkitBackgroundClip: "text",
