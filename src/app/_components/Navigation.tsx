@@ -2,16 +2,59 @@
 import Link from "next/link";
 import { usePathname } from "next/navigation";
 
+type NavigationType = {
+  href: string;
+  label: string;
+  color: string;
+  section?: string;
+};
+
 export default function Navigation() {
   const pathname = usePathname();
 
-  const navItems = [
-    { href: "/", label: "_hello", color: "text-[#F0B65A]" },
-    { href: "/skills", label: "_skills", color: "text-[#99B84A]" },
-    { href: "/projects", label: "_projects", color: "text-[#1E95E7]" },
-    { href: "/contacts", label: "_contacts", color: "text-[#C54EE3]" },
-    { href: "/aboutme", label: "_about me", color: "text-[#E43869]" },
+  const navItems: NavigationType[] = [
+    {
+      href: "/",
+      label: "_hello",
+      color: "text-[#F0B65A]",
+      section: "section1",
+    },
+    {
+      href: "/skills",
+      label: "_skills",
+      color: "text-[#99B84A]",
+      section: "section2",
+    },
+    {
+      href: "/projects",
+      label: "_projects",
+      color: "text-[#1E95E7]",
+      section: "section3",
+    },
+    {
+      href: "/contacts",
+      label: "_contacts",
+      color: "text-[#C54EE3]",
+      section: "section4",
+    },
+    {
+      href: "/aboutme",
+      label: "_about me",
+      color: "text-[#E43869]",
+    },
   ];
+
+  const handleScroll = (
+    event: React.MouseEvent<HTMLAnchorElement>,
+    section?: string
+  ) => {
+    event.preventDefault();
+    if (section) {
+      document
+        .getElementById(section)
+        ?.scrollIntoView({ behavior: "smooth", block: "center" });
+    }
+  };
 
   return (
     <>
@@ -27,15 +70,17 @@ export default function Navigation() {
         <ul className="flex gap-10 lg:gap-8">
           {navItems.map((item) => (
             <li key={item.href}>
-              <Link
-                href={item.href}
-                className={`${
-                  pathname === item.href
-                    ? item.color
-                    : "text-[#B8B8B8] hover:text-[#dddddd] transition duration-200"
-                }`}
-              >
-                {item.label}
+              <Link href={item.href} legacyBehavior>
+                <a
+                  onClick={(e) => handleScroll(e, item.section)}
+                  className={`${
+                    pathname === item.href
+                      ? item.color
+                      : "text-[#B8B8B8] hover:text-[#dddddd] transition duration-200"
+                  }`}
+                >
+                  {item.label}
+                </a>
               </Link>
             </li>
           ))}

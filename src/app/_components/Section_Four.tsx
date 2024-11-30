@@ -1,6 +1,9 @@
 const Section_Four: React.FC = () => {
   return (
-    <section className="flex max-w-[390px] flex-col gap-8 2xl:max-w-screen-xl lg:max-w-screen-lg xl:max-w-screen-xl md:max-w-[590px] sm:max-w-[460px] scale-[.8] sm:scale-100 xs:max-w-xs lg:flex-row justify-between my-28 2xl:scale-100 2xl:w-11/12 xl:w-11/12 lg:scale-[90%] lg:w-11/12 xl:scale-90 mx-auto md:scale-110">
+    <section className="flex max-w-[390px] flex-col gap-8 2xl:max-w-screen-xl lg:max-w-screen-lg xl:max-w-screen-xl md:max-w-[590px] sm:max-w-[460px] scale-[.8] sm:scale-100 xs:max-w-xs lg:flex-row justify-between my-28 2xl:scale-100 2xl:w-11/12 xl:w-11/12 lg:scale-[90%] lg:w-11/12 xl:scale-90 mx-auto md:scale-110"
+    title="Section 4"
+    id="section4"
+    style={{ scrollBehavior: 'smooth' }}>
       <h1 className="text-6xl w-[330px] 2xl:scale-100 lg:scale-[90%] xl:scale-90 font-bold text-[#1E95E7] leading-[75px]">
         Let&apos;s get
         <br />
