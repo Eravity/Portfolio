@@ -23,7 +23,7 @@ const BentoBoxV2: React.FC = () => {
   const title = "text-[#80808E] text-xs xl:text-sm text-center uppercase";
 
   return (
-    <div className="grid grid-cols-3 max-w-[320px] xs:grid-cols-4 gap-2 md:hidden mx-auto">
+    <div className="grid grid-cols-3 max-w-[320px] sm:max-w-md sm:grid-cols-4 gap-2 md:hidden mx-auto">
       <div className={container}>
         <Image src={HTML} alt="HTML Logo" width={56} height={56} />
         <h1 className={title}>HTML</h1>
