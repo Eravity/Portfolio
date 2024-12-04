@@ -33,8 +33,8 @@ const data = {
     {
       label: "Skill Level",
       data: [89, 79, 84, 91, 82, 81],
-      backgroundColor: "rgba(240, 183, 90, .2)",
-      borderColor: "#f0b65a",
+      backgroundColor: "rgba(197, 78, 227, .2)",
+      borderColor: "#C54EE3",
       pointBackgroundColor: "#f0b65a",
       pointBorderColor: "#fff",
       pointHoverBackgroundColor: "#fff",
@@ -79,7 +79,7 @@ const options = {
 
 const RadarChart: React.FC = () => {
   return (
-    <div className="w-full h-64 sm:h-80 md:h-96 lg:h-[500px] xl:h-[600px]">
+    <div className="w-full h-64 sm:h-80 md:h-96 lg:h-[300px] xl:h-[400px]">
       <Radar data={data} options={options} />
     </div>
   );
