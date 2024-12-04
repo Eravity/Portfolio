@@ -1,5 +1,7 @@
 import BlinkingCursor from "@/app/_components/BlinkingCursor";
 import ProjectFrame from "@/app/_components/ProjectFrame";
+import project_1 from "@/app/_images/project_1.png";
+import project_2 from "@/app/_images/project_2.png";
 
 const Section_Four: React.FC = () => {
   return (
@@ -17,12 +19,16 @@ const Section_Four: React.FC = () => {
           name="_Project 1"
           projectName="Vira's Balcony"
           description="This project features a booking application for a start-up offering luxury cabin rentals in a serene forest at the foothills of the mountains. The app provides an intuitive platform for users to explore available cabins, view real-time availability, and securely complete bookings. With a focus on user experience, the application ensures easy navigation and seamless integration with payment systems, making it effortless for customers to book their perfect getaway in this tranquil and exclusive destination."
+          imageSrc={project_1.src}
+          href="https://vira-s-web.vercel.app/"
         />
         <ProjectFrame
           id={2}
           name="_Project 2"
           projectName="Vira's Dashboard"
           description="A dashboard application for managing bookings, cabin information and all the booking options of the Vira's Balcony application."
+          imageSrc={project_2.src}
+          href="https://vira-s-dasdhoard.vercel.app"
         />
         <ProjectFrame
           id={3}

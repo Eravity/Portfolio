@@ -8,7 +8,7 @@ interface TextExpanderProps {
   amountOfWords?: number
 }
 
-export const TextExpander = ({ id, text, amountOfWords = 36 }: TextExpanderProps) => {
+export const TextExpander = ({ id, text, amountOfWords = 20 }: TextExpanderProps) => {
   const [isExpanded, setIsExpanded] = useState(false)
   const splittedText = text.split(' ')
   const itCanOverflow = splittedText.length > amountOfWords
