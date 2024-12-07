@@ -30,7 +30,7 @@ const ProjectFrame: React.FC<Props> = ({
               layout="fill"
               objectFit="cover"
               alt={projectName}
-              className="rounded-xl grayscale"
+              className="rounded-xl grayscale hover:grayscale-0 duration-200"
             />
           ) : (
             <ShortIdeLines name={name} projectName={projectName} />

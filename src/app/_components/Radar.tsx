@@ -35,10 +35,10 @@ const data = {
       data: [89, 79, 84, 91, 82, 81],
       backgroundColor: "rgba(197, 78, 227, .2)",
       borderColor: "#C54EE3",
-      pointBackgroundColor: "#f0b65a",
+      pointBackgroundColor: "#C54EE3",
       pointBorderColor: "#fff",
       pointHoverBackgroundColor: "#fff",
-      pointHoverBorderColor: "#f0b65a",
+      pointHoverBorderColor: "#C54EE3",
     },
   ],
 };
