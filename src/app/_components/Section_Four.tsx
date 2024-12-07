@@ -6,8 +6,7 @@ import project_2 from "@/app/_images/project_2.png";
 const Section_Four: React.FC = () => {
   return (
     <section className="mt-10 mb-12 2xl:max-w-screen-2xl lg:max-w-screen-lg xl:max-w-screen-xl md:max-w-screen-md max-w-xs xs:max-w-xs sm:max-w-md 2xl:w-11/12 xl:w-11/12 lg:w-11/12 flex flex-col mx-auto justify-around"
-    title="Section 3"
-    id="section3"
+    id="section4"
     style={{ scrollBehavior: 'smooth' }}>
       <h1 className="text-[#99B84A] mb-5 uppercase lg:scale-[90%] 2xl:max-w-screen-2xl lg:max-w-screen-lg xl:max-w-screen-xl 2xl:scale-[90%] flex gap-1">
         &#47;&#47;Latest Projects

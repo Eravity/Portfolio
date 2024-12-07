@@ -26,21 +26,22 @@ export default function Navigation() {
       section: "section2",
     },
     {
-      href: "/projects",
-      label: "_projects",
+      href: "/expertise",
+      label: "_expertise",
       color: "text-[#1E95E7]",
       section: "section3",
     },
     {
-      href: "/contacts",
-      label: "_contacts",
+      href: "/projects",
+      label: "_projects",
       color: "text-[#C54EE3]",
       section: "section4",
     },
     {
-      href: "/aboutme",
-      label: "_about me",
+      href: "/contacts",
+      label: "_contacts",
       color: "text-[#E43869]",
+      section: "section5",
     },
   ];
 

@@ -16,12 +16,12 @@ export default function Home() {
 
       <div className={`${sectionContainer}`}>
         <Section_Two />
-        <SectionIndicator text="Projects" />
+        <SectionIndicator text="Expertise" />
       </div>
 
       <div className={`${sectionContainer}`}>
         <Section_Three />
-        <SectionIndicator text="Contacts" />
+        <SectionIndicator text="Projects" />
       </div>
 
       <div className={`${sectionContainer}`}>
